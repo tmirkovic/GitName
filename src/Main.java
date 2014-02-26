@@ -17,6 +17,11 @@ private ArrayList<Team> teams= new ArrayList<Team>();
 		
 		//test
 		
+		Student tim = new Student("Tim Green", "github@nathangreen.com", "ndgreen");
+		tim.canNotMeet(Day.THURSDAY);//Choose only the days you cannot meet
+		tim.canNotMeet(Day.FRIDAY);
+		tim.preferTimeToMeet(Time.EITHER); // Choose Day/Night/Either
+		addStudent(tim);
 		
 		
 		
