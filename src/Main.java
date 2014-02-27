@@ -15,7 +15,11 @@ private ArrayList<Team> teams= new ArrayList<Team>();
 		
 		//Add yourself below here, Do not delete other Users
 		
-	
+		Student tibor = new Student("Tibor", "tmirkovic0298@westfield.ma.edu", "tmirkovic");
+		
+		tibor.canNotMeet(Day.SUNDAY);
+		tibor.preferTimeToMeet(Time.EITHER); // Choose Day/Night/Either
+		addStudent(tibor);
 		
 		
 		
